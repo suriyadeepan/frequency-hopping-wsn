@@ -1,0 +1,6 @@
+COMPONENT=TimeSyncAppC
+CFLAGS += -I$(TOSDIR)/lib/printf
+
+include $(MAKERULES)
+
+#CFLAGS += -DPRINTF_BUFFER_SIZE=1000
